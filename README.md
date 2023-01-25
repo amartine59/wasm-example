@@ -33,7 +33,10 @@ go run server.go
 ```
 And then go to `localhost:8080`.
 
-From that point you should be able to interact with the go program by pressing the button in the UI or by using the dev tools of your browser to call the function that was exported.
+From that point you should be able to interact with the go program by adding a string to the first input box and pressing the `check` button in the UI or by using the dev tools of your browser to call the functions that were exported:
+- `hasRepeatedChars('val1','result')`
+- `reset('val1','result')`
+
 
 ## Support ⚠️
 For now, this code should only work on Chrome and Mozilla Firefox.
