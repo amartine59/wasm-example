@@ -11,6 +11,7 @@ func main() {
 	fmt.Println("WASM Program Online!")
 
 	js.Global().Set("hasRepeatedChars", js.FuncOf(callbacks.HasRepeatedChars))
+	js.Global().Set("reset", js.FuncOf(callbacks.Clear))
 
 	<-ch
 }
