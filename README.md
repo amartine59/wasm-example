@@ -4,7 +4,7 @@ This is a very simple calculator that can help us get a small taste of WebAssemb
 I will be using this code in a post(I'm almost certain).
 
 ## References 📑
-The foundation of this code was built from the following resources:
+I was able to put together this exercise after looking at the following resources(and doing some research on the subject as well):
 -  [Go WebAssembly Tutorial - TutorialEdge](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 - [Go Wiki - WebAssembly](https://github.com/golang/go/wiki/WebAssembly#webassembly)
 - [TinyGo - WebAssembly](https://tinygo.org/docs/guides/webassembly/)
