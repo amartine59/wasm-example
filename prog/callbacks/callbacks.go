@@ -16,9 +16,9 @@ func HasRepeatedChars(this js.Value, args []js.Value) any {
 	r := hasRepeatedChars(val)
 	if r {
 		fmt.Println("Yes, it does")
-		return nil
+		return true
 	}
 
 	fmt.Println("No, it does not")
-	return nil
+	return false
 }
