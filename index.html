@@ -5,8 +5,14 @@
     <title>Go WebAssembly</title>
 </head>
 <body>
-    <button onClick="run();" id="runButton">Run</button>
     <script src="wasm_exec.js"></script>
     <script src="go.js"></script>
+
+    <h2>Repeated Characters Check</h2>
+    <input type="text" id="val1"/>
+    <button onClick="hasRepeatedChars('val1','result');" id="execButton">Check</button>
+    <button onClick="reset('val1','result');" id="resetButton">Clear</button>
+
+    <input type="text" id="result" disabled style="min-width: 300px;"/>
 </body>
 </html>
