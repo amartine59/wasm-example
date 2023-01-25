@@ -1,6 +1,9 @@
 package callbacks
 
-import "fmt"
+import (
+	"fmt"
+	"syscall/js"
+)
 
 func hasRepeatedChars(val string) bool {
 	m := make(map[string]bool)
@@ -15,4 +18,8 @@ func hasRepeatedChars(val string) bool {
 	}
 
 	return false
+}
+
+func updateResultBoxByID(boxID, v string) {
+	js.Global().Get("document").Call("getElementById", boxID).Set("value", v)
 }
